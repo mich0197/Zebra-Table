@@ -1,1 +1,29 @@
-tabl
+table {
+    
+    border-collapse: collapse;
+    overflow: hidden;
+    max-width: 1500px;
+    min-width: 600px;
+    -webkit-transition: background-color .6s linear;
+    -moz-transition: background-color .6s linear;
+    -o-transition: background-color .6s linear;
+    transition: background-color .6s linear;
+    text-align: center;
+}
+tr, td, th {border: none; line-height: 4em; 
+    
+}
+tbody tr:nth-child(odd) {
+   background-color: rgb(48,191,95);
+}
+tbody tr:nth-child(even) {
+   background-color: rgb(57,229,115);
+}
+.body td: hover {
+    background-color: rgb(64,255,127);
+    
+}
+thead {
+    background-color: rgb(32,127,64)
+
+}
